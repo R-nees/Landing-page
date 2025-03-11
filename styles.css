@@ -1,0 +1,131 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #052659;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 700px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.forgot-detail-bx {
+    margin-top: 15px;
+}
+
+.forgot-password-link,
+.forgot-detail-bx a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password-link:hover,
+.forgot-detail-bx a:hover {
+    text-decoration: underline;
+}
+
+
+.continue-with-txt {
+    margin: 20px 0 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-login, 
+.facebook-login {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.google-login {
+    background-color: #db4437;
+    color: white;
+}
+
+.google-login:hover {
+    background-color: #c1351d;
+}
+
+.facebook-login {
+    background-color: #1877f2;
+    color: white;
+}
+
+.facebook-login:hover {
+    background-color: #125abe;
+}
+
+
+@media (max-width: 400px) {
+    .card {
+        width: 90%;
+    }
+}
+
